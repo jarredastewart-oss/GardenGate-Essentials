@@ -15,19 +15,13 @@ Implementation safeguards:
 - No animation sequence, animation preload, or decoded frame cache. Animation transfer: 0 bytes. Motion is a bounded transform of still imagery.
 
 Not tested:
+- Browser emulation of reduced-motion preference changes and JavaScript-disabled loading (implemented, not runtime-tested).
 - Physical iOS Safari and Android Chrome devices, on-device toolbar/keyboard changes.
 - Field Core Web Vitals and throttled lab performance. No performance score claimed.
 - Amazon checkout/product availability (external destination is user-supplied).
 
 Media sizes are recorded below after optimization.
 
-- ._everyday-care.webp: 4 KiB
-- ._living-room.webp: 4 KiB
-- ._logo.webp: 4 KiB
-- ._natural-wool.webp: 4 KiB
-- ._neutral-colors.webp: 4 KiB
-- ._simple-care.webp: 4 KiB
-- ._wool-dryer-balls.webp: 4 KiB
 - everyday-care.webp: 82 KiB
 - living-room.webp: 277 KiB
 - logo.webp: 21 KiB
@@ -35,4 +29,4 @@ Media sizes are recorded below after optimization.
 - neutral-colors.webp: 80 KiB
 - simple-care.webp: 70 KiB
 - wool-dryer-balls.webp: 122 KiB
-- All image files: 768 KiB
+- All image files: 740 KiB
